@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>个人主页</title>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        width: 800px;
+        margin: 0 auto;
+      }
+
+      .header {
+        background-color: #333333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .header h1 {
+        font-size: 36px;
+      }
+
+      .content {
+        background-color: white;
+        padding: 20px;
+      }
+
+      .content h2 {
+        color: #333333;
+        font-size: 24px;
+        margin-top: 0;
+      }
+
+      .content p {
+        color: #666666;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      .content img {
+        width: 100%;
+        height: auto;
+      }
+
+      .footer {
+        background-color: #333333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+
+      a.button {
+        display: inline-block;
+        padding: 0.5em 1em;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 0.25em;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>我的个人主页</h1>
+      </div>
+
+      <div class="content">
+        <h2>关于我</h2>
+        <p>你好，我是曾泓程，一名科技爱好者。我从小就对科学和技术充满了好奇和热情，喜欢探索新的事物和创造新的东西。</p>
+        <p>我会C++、python、HTML等编程语言，详见我的作品，请多多指教</p>
+
+        <h2>我的项目</h2>
+        <p>在我的学习和生活中，我参与了一些有趣的编程项目，例如：</p>
+        <ul>
+          <li>高精度除法（模拟手算的高精度算法）<a href="https://code.xueersi.com/home/project/detail?lang=code&pid=43885949&version=cpp&form=cpp&langType=cpp" target="_blank" title="跳转网页">前往作品1</a></li>
+          <li>井字棋输赢判断程序<a href="https://code.xueersi.com/home/project/detail?lang=code&pid=42031843&version=cpp&form=cpp&langType=cpp" target="_blank" title="跳转网页">前往作品2</a></li>
+          <li>五子棋游戏<a href="https://code.xueersi.com/home/project/detail?lang=code&pid=33604694&version=offline&form=python&langType=python" target="_blank" title="跳转网页">前往作品3</a></li>
+        </ul>
+        <p>如果你想了解更多关于我的项目，请访问我的主页：<a href="https://code.xueersi.com/space/23986139?to=homepages">https://code.xueersi.com/space/23986139?to=homepages</a></p>
+
+        <h2>一些有趣的东西</h2>
+        <h3>bing AI国内免费无魔法体验！无限次数</h3>
+        <a href="https://bing.laogou717.com/web/#/" class="button">点击我跳转</a>
+        <h3>需要翻墙，但无限次免费使用chatgpt</h3>
+        <a href="https://poe.com/ChatGPT" class="button">点击我跳转</a>
+        <h3>让我们一起学习，增加生产力吧！</h3>
+      </div>
+
+      <div class="footer">
+        <p>版权所有 © 2023 曾泓程</p>
+      </div>
+    </div>
+
+    <script>
+      var coverSupport =
+        "CSS" in window &&
+        typeof CSS.supports === "function" &&
+        (CSS.supports("top: env(a)") || CSS.supports("top: constant(a)"));
+      document.write(
+        '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+          (coverSupport ? ', viewport-fit=cover' : "") +
+          '" />'
+      );
+    </script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
